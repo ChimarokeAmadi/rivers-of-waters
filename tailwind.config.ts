@@ -9,21 +9,20 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				background: "var(--background)",
-				foreground: "var(--foreground)",
+				Orange: "#FF6A09",
+				Blue: "#2E56D9",
 			},
 			container: {
 				center: true,
 				padding: {
-					DEFAULT: "1rem",
-					lg: "2.5rem",
+					DEFAULT: "2.5rem",
+					lg: "40px",
 				},
 				screens: {
 					sm: "100%",
-					lg: "1728px",
+					lg: "1657px",
 				},
 			},
 		},
 	},
-	plugins: [],
 } satisfies Config;

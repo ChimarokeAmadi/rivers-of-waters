@@ -18,8 +18,8 @@ export default function Logo() {
 					x2='105.641'
 					y2='64.5'
 					gradientUnits='userSpaceOnUse'>
-					<stop offset='0.22' stop-color='#2E56D9' />
-					<stop offset='0.775' stop-color='#FF6A09' />
+					<stop offset='0.22' stopColor='#2E56D9' />
+					<stop offset='0.775' stopColor='#FF6A09' />
 				</linearGradient>
 			</defs>
 		</svg>
