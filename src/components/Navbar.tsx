@@ -5,7 +5,7 @@ import RWF from "../../public/Images/RWF.png";
 const Navbar = () => {
 	return (
 		<>
-			<div className='container bg-white '>
+			<div className=' container bg-white fixed  top-0 left-0 right-0'>
 				<div className='flex justify-between items-center'>
 					<div className=' lg:h-[78px] lg:w-[205px] h-4 w-[41px] flex items-center'>
 						<Image

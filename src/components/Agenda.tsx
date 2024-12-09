@@ -3,7 +3,7 @@ import agendas from "../../public/AgendasInfo";
 export default function Agenda() {
 	return (
 		<div className='container flex justify-center items-center mt-[50px] lg:mt-[250px]'>
-			<div className='grid lg:grid-cols-[repeat(2,_600px)] grid-cols-2 lg:gap-[60px] gap-[25px] justify-between w-full'>
+			<div className='grid  grid-cols-2 lg:gap-[60px] gap-[25px] justify-items-center justify-between w-full'>
 				{agendas.map((agenda, index) => (
 					<div
 						style={{ backgroundColor: agenda.color }}

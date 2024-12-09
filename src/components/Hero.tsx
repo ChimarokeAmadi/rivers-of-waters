@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export default function Hero() {
 	return (
-		<div className=" container h-[300px] lg:h-[900px] w-full bg-[url('/Images/Hero.png')] bg-cover bg-center flex flex-col justify-between items-center pb-3 bg-no-repeat">
+		<div className=" container h-[300px] lg:h-[900px] bg-[url('/Images/Hero.png')] bg-cover bg-center flex flex-col justify-between items-center pb-3 bg-no-repeat">
 			<div className='lg:space-y-[34px] space-y-[13px]  text-center lg:pt-[150px] pt-8 text-[20px]'>
 				<div
 					className={`text-Orange  lg:text-[64px] font-bold  ${poppins.className}`}>
@@ -20,7 +20,7 @@ export default function Hero() {
 					We rise by lifting others
 				</div>
 			</div>
-			<button className='bg-white outline-4 outline outline-Orange lg:text-[48px] px-8  py-2 rounded-2xl'>
+			<button className='bg-white outline-4  border-4 border-Orange lg:text-[48px] px-8  py-2 rounded-2xl'>
 				<Link href={"#Contact"}>Contact Us</Link>
 			</button>
 		</div>

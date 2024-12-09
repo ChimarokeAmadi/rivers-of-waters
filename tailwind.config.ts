@@ -15,8 +15,8 @@ export default {
 				lg: "2.5rem",
 			},
 			screens: {
-				DEFAULT: "100%",
-				lg: "1500px",
+				sm: "100%",
+				lg: "1700px",
 			},
 		},
 		extend: {

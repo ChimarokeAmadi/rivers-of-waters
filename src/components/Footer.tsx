@@ -57,7 +57,7 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-			<div className='w-screen text-center'>
+			<div className=' text-center'>
 				<p className=''>
 					C2024 Rivers of Waters Foundation. All rights reserved.
 				</p>
