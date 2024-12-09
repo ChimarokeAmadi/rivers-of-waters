@@ -7,7 +7,7 @@ export default function Agenda() {
 				{agendas.map((agenda, index) => (
 					<div
 						style={{ backgroundColor: agenda.color }}
-						className={` w-fit lg:w-[600px]  h-[239px] lg:h-[800px] rounded-3xl text-center text-[36px] text-white pt-4 lg:p-5`}
+						className={` w-fit lg:w-[600px]  h-[239px] lg:h-[800px] rounded-3xl px-3 text-center text-[36px] text-white pt-4 lg:p-5`}
 						key={index}>
 						<h2 className='text-Blue text-[12px] lg:text-[40px]'>
 							{agenda.name}
