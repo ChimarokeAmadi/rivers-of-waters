@@ -10,7 +10,7 @@ export default function About() {
 				<h1>About Us</h1>
 			</div>
 			<div className='flex justify-between items-center'>
-				<div className='lg:w-[450px] w-[156px]'>
+				<div className='lg:w-[600px] w-[156px]'>
 					<p className='lg:text-[25px] text-[10px]'>
 						The Rivers of Waters Foundation is a nonprofit organization
 						dedicated to transforming lives and uplifting communities by
@@ -26,7 +26,7 @@ export default function About() {
 						src={AboutImg}
 						height={606.56}
 						width={526.28}
-						className='lg:h-[606.56px] lg:w-[526.28px] h-[118px] w-[136px]'
+						className='lg:w-[406.56px] lg:h-[326.28px] h-[118px] w-[136px]'
 					/>
 				</div>
 			</div>

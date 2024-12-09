@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import CarouselInfo from "../../public/CarouselInfo";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Goals() {
 	return (
@@ -27,17 +28,21 @@ export default function Goals() {
 					<CarouselContent>
 						{CarouselInfo.map((info, index) => (
 							<CarouselItem className='basis-1/3 ' key={index}>
-								<div className='w-full flex flex-col items-center space-y-4'>
-									<Image
-										src={info.image}
-										alt=''
-										width={386.88}
-										height={249.25}
-										className='lg:h-[250px] lg:w-[387px] w-[104px] h-[67px]'
-									/>
-									<p className='text-center text-[6px] lg:text-[20px] font-bold px-3'>
-										{info.text}
-									</p>
+								<div className='w-full '>
+									<Link
+										href={info.link}
+										className='flex flex-col items-center space-y-4'>
+										<Image
+											src={info.image}
+											alt=''
+											width={386.88}
+											height={249.25}
+											className='lg:h-[250px] lg:w-[387px] w-[104px] h-[67px]'
+										/>
+										<p className='text-center text-[6px] lg:text-[20px] font-bold px-3'>
+											{info.text}
+										</p>
+									</Link>
 								</div>
 							</CarouselItem>
 						))}

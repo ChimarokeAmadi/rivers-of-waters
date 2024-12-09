@@ -18,8 +18,8 @@ export default function WhyRWF() {
 					Why We Do What We Do{" "}
 				</div>
 				<div className='flex justify-between gap-2'>
-					<div className='bg-[#F8F1F1] lg:w-[700px] w-[180px] py-3 px-6 lg:px-20 lg:pt-[50px] rounded-[10px] lg:rounded-3xl flex items-center lg:block'>
-						<p className='text-[#1F1D1D] text-[9px] lg:text-[30px] text-center'>
+					<div className='bg-[#F8F1F1] lg:w-[700px] w-[180px] py-3  px-6 lg:px-20 lg:pt-[50px] rounded-[10px] lg:rounded-3xl flex items-center lg:block'>
+						<p className='text-[#1F1D1D] text-[9px] lg:text-[30px] text-center lg:pb-8'>
 							At Rivers of Waters Foundation, we believe that every person
 							deserves access to life’s essentials: education, health, food, and
 							community support. We’re committed to empowering communities and
@@ -27,8 +27,8 @@ export default function WhyRWF() {
 							<span className='text-Blue'>create a brighter future.</span>
 						</p>
 					</div>
-					<div className='bg-[#F8F1F1] lg:w-[700px] w-[180px] lg:px-20 lg:pt-[50px] rounded-[10px] lg:rounded-3xl px- '>
-						<p className='text-[#1F1D1D] lg:text-[30px] text-[9px] lg:px-[63px] pb-2 lg:py-[50px] text-center py-3 px-6'>
+					<div className='bg-[#F8F1F1] lg:w-[700px] w-[180px] lg:px-20 lg:pt-[50px] py-3  px-6 rounded-[10px] lg:rounded-3xl'>
+						<p className='text-[#1F1D1D] lg:text-[30px] text-[9px]  pb-2 lg:py-0 text-center  lg:pb-8'>
 							Rivers of Waters Foundation was born from a deep desire to see
 							people thrive. No matter where they come from.{" "}
 							<span className='text-Blue'>
