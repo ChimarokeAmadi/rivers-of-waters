@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Goals() {
 	return (
 		<div className='container '>
-			<div className=' lg:text-[25px] lg:w-[950px] lg:my-[100px] mt-4 mb-[44px]'>
+			<div className=' lg:text-[25px] w-fit lg:w-[950px] lg:my-[100px] mt-4 mb-[44px]'>
 				<h3 className='text-Orange font-bold mb-5'>A Glimpse into our Goals</h3>
 				<p className='text-[10px] lg:text-[25px] font-bold'>
 					Discover the impact we strive to create at Rivers of Waters Foundation

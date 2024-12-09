@@ -8,6 +8,17 @@ export default {
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		container: {
+			center: true,
+			padding: {
+				DEFAULT: "1rem",
+				lg: "2.5rem",
+			},
+			screens: {
+				DEFAULT: "100%",
+				lg: "1500px",
+			},
+		},
 		extend: {
 			colors: {
 				Orange: "#FF6A09",
@@ -53,17 +64,17 @@ export default {
 					"5": "hsl(var(--chart-5))",
 				},
 			},
-			container: {
-				center: true,
-				padding: {
-					DEFAULT: "1rem",
-					lg: "2.5rem",
-				},
-				screens: {
-					sm: "100%",
-					lg: "1657px",
-				},
-			},
+			// container: {
+			// 	center: true,
+			// 	padding: {
+			// 		DEFAULT: "1rem",
+			// 		lg: "2.5rem",
+			// 	},
+			// 	screens: {
+			// 		DEFAULT: "100%",
+			// 		lg: "1657px",
+			// 	},
+			// },
 			borderRadius: {
 				lg: "var(--radius)",
 				md: "calc(var(--radius) - 2px)",
