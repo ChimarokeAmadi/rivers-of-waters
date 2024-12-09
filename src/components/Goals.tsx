@@ -1,12 +1,12 @@
-// import {
-// 	Carousel,
-// 	CarouselContent,
-// 	CarouselItem,
-// 	CarouselNext,
-// 	CarouselPrevious,
-// } from "@/components/ui/carousel";
-// import CarouselInfo from "../../public/CarouselInfo";
-// import Image from "next/image";
+import {
+	Carousel,
+	CarouselContent,
+	CarouselItem,
+	CarouselNext,
+	CarouselPrevious,
+} from "@/components/ui/carousel";
+import CarouselInfo from "../../public/CarouselInfo";
+import Image from "next/image";
 
 export default function Goals() {
 	return (
@@ -22,7 +22,7 @@ export default function Goals() {
 				</p>
 			</div>
 
-			{/* <div className=''>
+			<div className=''>
 				<Carousel>
 					<CarouselContent>
 						{CarouselInfo.map((info, index) => (
@@ -45,7 +45,7 @@ export default function Goals() {
 					<CarouselPrevious />
 					<CarouselNext />
 				</Carousel>
-			</div> */}
+			</div>
 		</div>
 	);
 }
