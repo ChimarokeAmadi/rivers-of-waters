@@ -22,7 +22,7 @@ export default function Goals() {
 				</p>
 			</div>
 
-			<div className=''>
+			{/* <div className=''>
 				<Carousel>
 					<CarouselContent>
 						{CarouselInfo.map((info, index) => (
@@ -45,7 +45,7 @@ export default function Goals() {
 					<CarouselPrevious />
 					<CarouselNext />
 				</Carousel>
-			</div>
+			</div> */}
 		</div>
 	);
 }
